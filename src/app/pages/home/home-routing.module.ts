@@ -10,7 +10,7 @@ const routes: Routes = [
       {
         path: 'pokemons',
         loadChildren: () =>
-          import('pokemonMfeList/Module').then((m) => m.RemoteEntryModule),
+          import('pokemonMfeList/Module').then((m) => m.AppModule),
       },
     ],
   },

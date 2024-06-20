@@ -3,9 +3,6 @@
     <img class="home__pokeball mx-3" src="./assets/images/pokeball.svg" alt="pokebola">
     <h1 class="home__title mb-0">Pokédex</h1>
   </div>
-  <app-search (searchInputChange)="teste($event)" class="d-block ms-4 me-3"></app-search>
-  <ul>
-    <li><a [routerLink]="[ 'pokemons' ]">pokemons</a></li>
-  </ul>
+  <app-search (searchInputChange)="teste($event)" class="d-block ms-4 me-3 mb-4"></app-search>
   <router-outlet></router-outlet>  
 </section>
