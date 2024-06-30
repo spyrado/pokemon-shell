@@ -18,8 +18,4 @@ export class HomeComponent implements OnInit {
     this.route.navigate(['pokemons']);
   }
 
-
-  teste(a: any) {
-    console.log(a);
-  }
 }

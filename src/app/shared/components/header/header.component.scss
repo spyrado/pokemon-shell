@@ -1,0 +1,30 @@
+.header {
+  &__pokeball {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__title {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+  }
+
+  &__content {
+    padding: 4px 4px 0px 4px;
+    margin-bottom: 12px;
+  }
+
+  &__wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    background: #dc0a2d;
+  }
+}

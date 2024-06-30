@@ -3,24 +3,4 @@
 .home {
   background: $primary;
   height: 100vh;
-
-  &__pokeball {
-    width: 24px;
-    height: 24px;
-  }
-
-  &__title {
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-  }
-
-  &__header {
-    padding: 4px 4px 0px 4px;
-    margin-bottom: 12px;
-  }
 }

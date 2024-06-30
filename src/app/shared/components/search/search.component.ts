@@ -8,5 +8,6 @@ import { Component, EventEmitter, Output } from '@angular/core';
 export class SearchComponent {
 
   public searchInput: string = '';
+  
   @Output() searchInputChange = new EventEmitter<string>();
 }
