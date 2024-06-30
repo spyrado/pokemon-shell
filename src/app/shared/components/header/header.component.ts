@@ -14,7 +14,6 @@ export class HeaderComponent {
   constructor(private eventService: EventService) {}
   
   onSearch(search: string) {
-    console.log('from shell: ', search);
     this.searchInputEvent.emit(search);
     this.eventService.emitSearchInputChange(search);
   }
