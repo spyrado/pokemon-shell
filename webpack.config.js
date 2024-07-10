@@ -5,6 +5,7 @@ module.exports = withModuleFederationPlugin({
   name: 'shell',
   remotes: {
     "pokemonMfeList": "http://localhost:4201/remoteEntry.js",
+    "pokemonMfeProfile": "http://localhost:4202/remoteEntry.js",
   },
   exposes: {
     "./EventService": "./src/app/shared/services/event/event.service.ts",

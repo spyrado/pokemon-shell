@@ -8,7 +8,7 @@ const routes: Routes = [
     component: HomeComponent,
     children: [
       {
-        path: 'pokemons',
+        path: '',
         loadChildren: () =>
           import('pokemonMfeList/Module').then((m) => m.AppModule),
       },
